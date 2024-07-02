@@ -87,9 +87,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "@angular/material//prebuilt-themes/ingigo-pink.css",
+              "node_mocules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_mocules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           }
         }
       }
