@@ -2,15 +2,23 @@ import { Component, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
-import { Route } from '@angular/router';
 import { InicioComponent } from './pages/inicio/inicio.component';
+import { ComponentComponent } from './component/component.component';
+import { CardComponent } from './component/card/card.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    InicioComponent,
+    ComponentComponent,
+    CardComponent,
+  ],
   imports: [
     CommonModule,
     InicioRoutingModule
-  ]
+  ],
+  exports:[InicioComponent],
+    
+  
 })
 export class InicioModule { }
